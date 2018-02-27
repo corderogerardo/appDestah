@@ -14,7 +14,8 @@ if (Meteor.isServer) {
                 owner: 'https://www.meteor.com',
                 quantities: 2,
                 price: 8.0,
-                summary: 'German beer'
+                summary: 'German beer',
+                author: this.userId
             });
             const added = Products.find({ _id: productId });
             const collectionName = added._getCollectionName();

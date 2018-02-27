@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c840f17c-2d93-4389-abf2-1da4297ea604" name="Default" comment="" />
+    <list default="true" id="c840f17c-2d93-4389-abf2-1da4297ea604" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/imports/api/products/products.tests.js" afterPath="$PROJECT_DIR$/imports/api/products/products.tests.js" />
+      <change beforePath="$PROJECT_DIR$/imports/startup/server/fixtures.js" afterPath="$PROJECT_DIR$/imports/startup/server/fixtures.js" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -166,12 +169,67 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="awishlists.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="awishlists.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/imports/ui/components/awishlists/awishlists.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="324">
                   <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="products.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/imports/api/products/products.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="252">
+                  <caret line="52" column="30" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="30" />
+                  <folding>
+                    <element signature="e#39#76#0" expanded="true" />
+                    <element signature="e#203#332#0" expanded="true" />
+                    <element signature="e#246#330#0" expanded="true" />
+                    <element signature="e#260#323#0" expanded="true" />
+                    <element signature="e#452#521#0" expanded="true" />
+                    <element signature="e#487#519#0" expanded="true" />
+                    <element signature="e#594#664#0" expanded="true" />
+                    <element signature="e#682#774#0" expanded="true" />
+                    <element signature="e#787#865#0" expanded="true" />
+                    <element signature="e#880#983#0" expanded="true" />
+                    <element signature="e#1138#1176#0" expanded="true" />
+                    <element signature="e#1199#1385#0" expanded="true" />
+                    <element signature="e#1279#1321#0" expanded="true" />
+                    <element signature="e#1341#1379#0" expanded="true" />
+                    <element signature="e#1446#1610#0" expanded="true" />
+                    <element signature="e#1472#1500#0" expanded="true" />
+                    <element signature="e#1526#1554#0" expanded="true" />
+                    <element signature="e#1580#1608#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="products.tests.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/imports/api/products/products.tests.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="198">
+                  <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                    <element signature="e#95#134#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="fixtures.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/imports/startup/server/fixtures.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="126">
+                  <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+                  <folding>
+                    <element signature="e#45#84#0" expanded="true" />
+                    <element signature="e#166#170#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -222,11 +280,9 @@
         <option value="$PROJECT_DIR$/imports/api/links/server/publications.tests.js" />
         <option value="$PROJECT_DIR$/.meteor/packages" />
         <option value="$PROJECT_DIR$/imports/startup/server/register-api.js" />
-        <option value="$PROJECT_DIR$/imports/api/products/products.tests.js" />
         <option value="$PROJECT_DIR$/imports/api/products/methods.tests.js" />
         <option value="$PROJECT_DIR$/imports/api/products/server/publications.js" />
         <option value="$PROJECT_DIR$/imports/api/products/server/publications.tests.js" />
-        <option value="$PROJECT_DIR$/imports/startup/server/fixtures.js" />
         <option value="$PROJECT_DIR$/imports/api/wishlists/methods.tests.js" />
         <option value="$PROJECT_DIR$/imports/api/wishlists/server/publications.tests.js" />
         <option value="$PROJECT_DIR$/imports/api/wishlists/Images.js" />
@@ -255,6 +311,8 @@
         <option value="$PROJECT_DIR$/imports/ui/stylesheets/main.scss" />
         <option value="$PROJECT_DIR$/imports/ui/components/awishlists/awishlists.html" />
         <option value="$PROJECT_DIR$/imports/ui/components/awishlists/awishlists.scss" />
+        <option value="$PROJECT_DIR$/imports/api/products/products.tests.js" />
+        <option value="$PROJECT_DIR$/imports/startup/server/fixtures.js" />
       </list>
     </option>
   </component>
@@ -269,7 +327,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-55" />
     <option name="y" value="102" />
     <option name="width" value="1354" />
@@ -558,18 +616,18 @@
       <workItem from="1519597548038" duration="722000" />
       <workItem from="1519647189282" duration="1206000" />
       <workItem from="1519663933512" duration="3646000" />
-      <workItem from="1519673003696" duration="15016000" />
+      <workItem from="1519673003696" duration="16111000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53670000" />
+    <option name="totallyTimeSpent" value="54765000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-55" y="102" width="1362" height="741" extended-state="7" />
+    <frame x="-55" y="102" width="1362" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16903515" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1697831" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -670,13 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/startup/server/fixtures.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -719,24 +770,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/api/products/products.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imports/api/products/methods.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="8" column="74" lean-forward="false" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imports/api/products/products.tests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -936,8 +973,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/imports/ui/components/wishlists/wishlists.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="3" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        <state relative-caret-position="270">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="e#0#64#0" expanded="true" />
             <element signature="e#250#267#0" expanded="true" />
@@ -989,7 +1026,7 @@
         <state relative-caret-position="108">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1015,14 +1052,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/components/awishlists/awishlists.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imports/ui/components/awishlists/awishlists.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -1031,11 +1060,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/components/awishlists/awishlists.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/api/products/products.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="52" column="30" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="30" />
+          <folding>
+            <element signature="e#39#76#0" expanded="true" />
+            <element signature="e#203#332#0" expanded="true" />
+            <element signature="e#246#330#0" expanded="true" />
+            <element signature="e#260#323#0" expanded="true" />
+            <element signature="e#452#521#0" expanded="true" />
+            <element signature="e#487#519#0" expanded="true" />
+            <element signature="e#594#664#0" expanded="true" />
+            <element signature="e#682#774#0" expanded="true" />
+            <element signature="e#787#865#0" expanded="true" />
+            <element signature="e#880#983#0" expanded="true" />
+            <element signature="e#1138#1176#0" expanded="true" />
+            <element signature="e#1199#1385#0" expanded="true" />
+            <element signature="e#1279#1321#0" expanded="true" />
+            <element signature="e#1341#1379#0" expanded="true" />
+            <element signature="e#1446#1610#0" expanded="true" />
+            <element signature="e#1472#1500#0" expanded="true" />
+            <element signature="e#1526#1554#0" expanded="true" />
+            <element signature="e#1580#1608#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/imports/ui/stylesheets/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/api/products/products.tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#95#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/startup/server/fixtures.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="e#45#84#0" expanded="true" />
+            <element signature="e#166#170#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
