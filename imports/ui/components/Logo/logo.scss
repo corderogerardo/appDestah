@@ -1,0 +1,33 @@
+.circle {
+    background: #2e59a0;
+    border-radius: 50%;
+    height: 0;
+    margin: 1em auto;
+    padding: 10% 0;
+    position: relative;
+    width: 20%;
+}
+
+.content {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+.content:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    width: 0;
+}
+
+.content span {
+    color:white;
+    display: inline-block;
+    font-size: 22px;
+    font-style: italic;
+    vertical-align: middle;
+}

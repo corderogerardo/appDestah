@@ -1,0 +1,29 @@
+<template name="mywishlists">
+    {{#if currentUser}}
+        <div class="container">
+            {{#each lists}}
+                {{> wishlist}}
+            {{else}}
+                <h3>No tienes Wishlists! <a href="/wishlists">Crea una!</a></h3>
+            {{/each}}
+        </div>
+    {{/if}}
+</template>
+
+<template name="wishlist">
+    <div class="row">
+        <div class="col s12 m6">
+            <div class="card blue darken-1">
+                <div class="card-content white-text">
+                    <span class="card-title">{{name}}</span>
+                    <p>{{picture}}</p>
+                    <p>{{summary}}</p>
+                </div>
+                <div class="card-action">
+                    <a href="#">{{gifts.length}}</a>
+                    <a href="/mywishlists/{{this._id}}">Ver Wishlist!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

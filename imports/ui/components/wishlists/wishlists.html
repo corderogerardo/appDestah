@@ -1,0 +1,7 @@
+<template name="wishlists">
+    {{#if currentUser}}
+        <div class="container">
+            {{> quickForm collection=Collections.Wishlists id="wishlistsInsertForm" type="insert"}}
+        </div>
+    {{/if}}
+</template>

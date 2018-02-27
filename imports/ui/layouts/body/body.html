@@ -1,0 +1,16 @@
+<template name="App_body">
+    <div class="container">
+        {{> Logo}}
+    </div>
+    <div class="container menu">
+        <ul>
+            <li><a href="/">Inicio</a></li>
+            {{#if currentUser}}
+                <li><a href="/wishlist">Crear Wishlist</a></li>
+                <li><a href="/mywishlists">My Wishlists</a></li>
+            {{/if}}
+            <li>{{> loginButtons}}</li>
+        </ul>
+    </div>
+    {{> Template.dynamic template=main}}
+</template>

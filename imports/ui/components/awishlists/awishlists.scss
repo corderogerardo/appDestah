@@ -1,0 +1,49 @@
+h5{
+    color: #2e59a0;
+    text-align: center;
+}
+.wishlist-image{
+    display: flex;
+    background-image: url("img/404.svg");
+    width: 40vw;
+    height: 40vh;
+    margin: auto;
+}
+.wishlist-summary{
+    border: 1px solid lightgrey;
+    color: lightgrey;
+    display: flex;
+    width: 60vw;
+    height: 20vh;
+    margin: auto;
+    p{
+        font-size: 18px;
+        text-align: justify;
+    }
+}
+.wishlist-message{
+    color: #2e59a0;
+    font-size: 18px;
+    width: 40vw;
+    height: 40vh;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+}
+.wishlist-gifts{
+    border: 1px solid #2e59a0;
+    background-color: transparent !important;
+    color: #2e59a0 !important;
+    .content{
+        span{
+            color: #2e59a0 !important;
+            font-size: 44px;
+            font-style: normal !important;
+            font-weight: bold;
+        }
+        .small-text{
+            font-size: 22px;
+
+        }
+    }
+}

@@ -1,0 +1,22 @@
+<template name="awishlists">
+    <div class="container">
+        <h3>
+            {{#each list }}
+                <h5>{{ user (author) }} Gifts List </h5>
+                <img class="wishlist-image" src="" alt="">
+                <div class="wishlist-summary">
+                    <p>{{ summary }}</p>
+                </div>
+                <h4 class="wishlist-message">To see all {{ user (author) }} Gifts, <br>Please download the Destah App</h4>
+                <div class="circle wishlist-gifts">
+                    <div class="content">
+                        <span> {{ gifts.length }}
+                            <br>
+                        <span class="small-text"> GIFT ON</span></span>
+
+                    </div>
+                </div>
+            {{/each}}
+        </h3>
+    </div>
+</template>
